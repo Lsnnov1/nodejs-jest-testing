@@ -31,7 +31,7 @@ class MarkovMachine {
   }
 
 
-  /** Pick random choice from array */
+  // Generate a random index within array
 
   static choice(ar) {
     return ar[Math.floor(Math.random() * ar.length)];
